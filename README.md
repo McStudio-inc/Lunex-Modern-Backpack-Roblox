@@ -279,34 +279,3 @@ Please see the repository license for information regarding usage, modification,
 *A modern, customizable Backpack experience for Roblox.*
 
 </div>
-```
-
-### Saya juga akan mengubah sedikit wording bagian `ReplicatedStorage`
-
-Kalau secara teknis package kamu memang **boleh dipindah ke `ReplicatedStorage`**, README di atas sudah cocok. Tapi ada satu hal penting: **LocalScript tidak akan berjalan di `ReplicatedStorage`**.
-
-Jadi kalau struktur kamu seperti:
-
-```text
-ReplicatedStorage
-└── Lunex
-    └── Lunex (LocalScript)
-```
-
-`Lunex` **LocalScript-nya tidak akan otomatis execute** di sana.
-
-Yang lebih profesional untuk sistem seperti ini adalah:
-
-```text
-ReplicatedStorage
-└── Lunex
-    └── lunex (ModuleScript)
-```
-
-lalu:
-
-```text
-StarterPlayer
-└── StarterPlayerScripts
-    └── LunexLoader (LocalScript)
-```
