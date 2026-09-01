@@ -3,7 +3,7 @@
 
 ### Modern & Customizable Backpack Loader for Roblox
 
-LUNEX is a modern, lightweight, and customizable Backpack system for Roblox.
+LUNEX is a modern, lightweight, Open Source and customizable Backpack system for Roblox.
 
 It is designed to provide a cleaner and more flexible alternative to the default Roblox Backpack, while keeping the installation and customization process simple for developers.
 
