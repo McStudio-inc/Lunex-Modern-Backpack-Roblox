@@ -1,8 +1,4 @@
-Bisa. Dari struktur yang kamu tunjukkan, **LUNEX bukan sekadar satu ModuleScript**, tetapi berupa package yang memiliki `LocalScript`, `ModuleScript`, UI/template, API, dan asset pendukung. Jadi README-nya lebih bagus kalau menjelaskan **package structure + installation + customization + portability**.
 
-Berikut versi yang lebih profesional dan cocok untuk GitHub:
-
-````md
 # LUNEX
 
 ### Modern & Customizable Backpack Loader for Roblox
@@ -314,9 +310,3 @@ StarterPlayer
 └── StarterPlayerScripts
     └── LunexLoader (LocalScript)
 ```
-
-Loader mengambil module dari `ReplicatedStorage`.
-
-**Namun**, kalau kode LUNEX kamu memang dibuat supaya `Lunex (LocalScript)` berada di dalam package dan kamu tinggal memindahkan seluruh package, maka struktur yang sekarang bisa dipertahankan.
-
-Kalau kamu kirim **isi `Lunex` LocalScript + `lunex` ModuleScript**, saya bisa bantu bikin README yang **100% sesuai arsitektur LUNEX kamu**, termasuk bagian **API/usage**, contoh `require()`, konfigurasi Attributes, dan cara developer mengintegrasikannya ke game mereka.
